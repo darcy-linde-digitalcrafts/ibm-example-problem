@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+th:nth-child(1) {
+  background-color: rgb(53, 59, 65);
+  color: white;
+}
+
+th:nth-child(2) {
+  background-color: darkgreen;
+  color: white;
+}
+
+th:nth-child(3) {
+  background-color: darkred;
+  color: white;
+}
+
+th:nth-child(4) {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+td:nth-child(1) {
+  background-color: grey;
+  color: white;
+}
+
+td:nth-child(2) {
+  background-color: green;
+  color: white;
+}
+
+td:nth-child(3) {
+  background-color: red;
+  color: white;
+}
+
+td:nth-child(4) {
+  background-color: goldenrod;
+  color: white;
+}
